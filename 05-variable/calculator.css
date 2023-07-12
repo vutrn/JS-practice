@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 * {
   font-family: VT323;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-button {
-  padding: 15px 18px;
-  margin: 5px;
-}
-
-button:hover {
+button:active {
   position: relative;
   box-shadow: none;
   right: -5px;
@@ -32,12 +27,22 @@ button:hover {
 }
 
 .number-btn {
+  padding: 15px 22px;
+  margin: 5px;
   background: yellow;
   border-radius: 7px;
   border: 2px solid black;
   box-shadow: 5px 5px 1px black;
 }
 
+.AC-btn{
+  padding: 15px 18px;
+  margin: 5px;
+  background: yellow;
+  border-radius: 7px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 1px black;
+}
 
 
 .cal-section {
@@ -46,6 +51,8 @@ button:hover {
 }
 
 .cal-btn {
+  padding: 15px 18px;
+  margin: 5px;
   background: orange;
   border-radius: 10px;
   border: 2px solid black;
