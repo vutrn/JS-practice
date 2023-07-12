@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CALCULATOR</title>
+  <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="number-section">
+      <div>
+        <button class="number-btn" onclick="calculation += '1'; console.log(calculation)">
+          1
+        </button>
+        <button class="number-btn" onclick="calculation += '2'; console.log(calculation)">
+          2
+        </button>
+        <button class="number-btn" onclick="calculation += '3'; console.log(calculation)">
+          3
+        </button>
+      </div>
+      <div>
+        <button class="number-btn" onclick="calculation += '4'; console.log(calculation)">
+          4
+        </button>
+        <button class="number-btn" onclick="calculation += '5'; console.log(calculation)">
+          5
+        </button>
+        <button class="number-btn" onclick="calculation += '6'; console.log(calculation)">
+          6
+        </button>
+      </div>
+      <div>
+        <button class="number-btn" onclick="calculation += '7'; console.log(calculation)">
+          7
+        </button>
+        <button class="number-btn" onclick="calculation += '8'; console.log(calculation)">
+          8
+        </button>
+        <button class="number-btn" onclick="calculation += '9'; console.log(calculation)">
+          9
+        </button>
+      </div>
+      <div>
+        <button class="number-btn" onclick="calculation += '0'; console.log(calculation)">
+          0
+        </button>
+        <button class="number-btn" onclick="calculation += '.'; console.log(calculation)">
+          .
+        </button>
+        <button class="number-btn" onclick="calculation = ''; console.log(0)">
+          AC
+        </button>
+      </div>
+    </div>
+    <div class="cal-section">
+      <button class="cal-btn" onclick="calculation += ' + '; console.log(calculation)">+</button>
+      <button class="cal-btn" onclick="calculation += ' - '; console.log(calculation)">-</button>
+      <button class="cal-btn" onclick="calculation += ' * '; console.log(calculation)">x</button>
+      <button class="cal-btn" onclick="calculation += ' / '; console.log(calculation)">÷</button>
+      <button class="cal-btn" onclick="calculation = eval(calculation); console.log(calculation);">
+        =
+      </button>
+    </div>
+  </div>
+
+  <script>
+    let calculation = "";
+  </script>
+</body>
+
+</html>
