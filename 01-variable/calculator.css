@@ -31,19 +31,18 @@ button:active {
   margin: 5px;
   background: yellow;
   border-radius: 7px;
-  border: 2px solid black;
-  box-shadow: 5px 5px 1px black;
+  border: 3px solid black;
+  box-shadow: 5px 5px 0px black;
 }
 
-.AC-btn{
+.AC-btn {
   padding: 15px 18px;
   margin: 5px;
   background: yellow;
   border-radius: 7px;
-  border: 2px solid black;
+  border: 3px solid black;
   box-shadow: 5px 5px 1px black;
 }
-
 
 .cal-section {
   display: flex;
@@ -55,7 +54,7 @@ button:active {
   margin: 5px;
   background: orange;
   border-radius: 10px;
-  border: 2px solid black;
-  box-shadow: 5px 5px 1px black;
+  border: 3px solid black;
+  box-shadow: 5px 5px 0px black;
   padding: 8.5px 15px;
 }
