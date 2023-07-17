@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>04</title>
+</head>
+
+<body>
+
+
+  <script>
+    let product1 = {
+      name: 'basketball',
+      price: 2095,
+      // 'delivery-time': '3-days'
+    }
+    let product2 = {
+      name: 'football',
+      price: 1895,
+      // 'delivery-time': '3-days'
+    }
+    let product3={
+      name:'football',
+      price: 1895,
+    }
+    // basketball = JSON.stringify(basketball);
+    // basketball.price += 500
+    console.log(product1);
+
+    comparePrice(product1, product2);
+    console.log(comparePrice(product1, product2));
+
+    console.log(isSameProduct(product1, product2));
+    console.log(isSameProduct(product2.price, product3.price));
+    console.log('GoOd nIgHt'.repeat(3));
+    console.log('GoOd nIgHt'.toLowerCase());
+
+    //---------------------------------------------------------------------------------
+    function comparePrice(product1, product2){
+      if(product1.price > product2.price){
+        return product1
+        // console.log(`${product1} is more expensive`)
+      }else{
+        return product2
+        // console.log(`${product2} is less expensive`)
+      }
+    }
+
+    function isSameProduct (product1, product2){
+      if(product1 === product2){
+        return true
+      }else{
+        return false
+      }
+    }
+
+  </script>
+</body>
+
+</html>
