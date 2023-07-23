@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PROJECT</title>
 </head>
-<body>
-  <p>Youtube subscribe button</p>
-  <button class="js-sub-button" onclick="subStatus()">Subscribe</button>
 
+<body>
+  <section>
+    <p>Youtube subscribe button</p>
+    <button class="js-sub-button" onclick="subStatus()">Subscribe</button>
+  </section>
+
+  <hr>
+  <section>
+    <p>Amazon Shipping Calculator</p>
+    <input type="text" name="" id="">
+    <button>Calculate</button>
+  </section>
 
   <script>
     // innerHTML: get the content inside a HTML element, including SPACE
     // innerText: only get the text inside a HTML element
-   const buttonElement = document.querySelector('.js-sub-button')
-   function subStatus(){
-     if(buttonElement.innerText === 'Subscribe'){
-      buttonElement.innerHTML = 'Subscribed'
-     }else{
-      buttonElement.innerHTML = 'Subscribe'
-     }
-   }
+    const buttonElement = document.querySelector('.js-sub-button')
+    function subStatus() {
+      if (buttonElement.innerText === 'Subscribe') {
+        buttonElement.innerHTML = 'Subscribed'
+      } else {
+        buttonElement.innerHTML = 'Subscribe'
+      }
+    }
   </script>
 </body>
+
 </html>

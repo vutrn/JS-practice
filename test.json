@@ -1,0 +1,8 @@
+{
+  "name": "tao",
+  "age": true,
+  "friends": ["tao1", "tao2"],
+  "list": [{
+    
+  }]
+}
